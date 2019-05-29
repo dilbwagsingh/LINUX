@@ -4,6 +4,8 @@
 	sudo -H pip2 install --upgrade pip
 
 
+GITHUB SECTION -
+
 2. To save github credentials for a particular project so that you dont have to give the
 username and pass everytime you make a push-
 	
@@ -18,4 +20,30 @@ username and pass everytime you make a push-
 	3. git pull upstream master (If a text editor pops up just exit it)
 	4. git push
 
-4. 
+4. If you ever create a project then then plan to add it to a repository follow these-
+
+	1. Create a repo in GitHub and copy the repo link.
+	2. Go to the project folder in your local system from the terminal type the following commands-
+			1. git init (This initialises the local folder as a .git directory that basically tells your system that this is a GitHub project)
+			2. git remote add origin YOUR-REPO-LINK-THAT-YOU-COPIED (Tells git where to upload files)
+			3. git config --global user.name "YOUR-GITHUB-NAME"									
+			4. git config --global user.email "YOUR-EMAIL-ASSOCIATED-WITH-YOUR-GITHUB-ACCOUNT"	
+				(4 and 5 set up your identity globally for all the future github hosted projects. 
+				If you want to setup your identity for the current project just remove the "--global" flag)
+			5. git pull origin master (This is to make the local project folder even with the repo you just created online)
+			6. git branch --set-upstream-to = origin/master (Tells github that master is the branch to perform pull from and push to)
+				(At this point you have the repository setup)
+			7. git status (This checks for the evenness of the local files with the repo online)
+			8. git add -A ("-A" flag is to add all files that are changed to be ready to be pushed)
+			9. git commit -m "COMMIT-MESSAGE"
+			10. git push (since we had setup the origin master before so we dont need to specify origin master)
+			 	(Now it will prompt for your username and password, type those in correctly and you are done!!)
+
+5. If you want to delete files or directories from the repo - 
+		git rm FILE/FOLDER-NAME-YOU-WANT-TO-DELETE
+
+
+6. If you donot want to include a particular file or folder in your repo just add it to the .gitignore file
+		git-ignore FILE/FOLDER-NAME-YOU-WANT-TO-IGNORE
+
+7. 
