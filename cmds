@@ -6,6 +6,8 @@
 
 GITHUB SECTION -
 
+							----------START-------------
+
 2. To save github credentials for a particular project so that you dont have to give the
 username and pass everytime you make a push-
 	
@@ -49,4 +51,14 @@ username and pass everytime you make a push-
 		
 		git-ignore FILE/FOLDER-NAME-YOU-WANT-TO-IGNORE
 
-7. 
+
+							------------------END------------------
+
+
+7. Run previous command on terminal with an added wprd-
+			
+			example : previous command - apt-get install python
+					   now type - sudo !! (To run previous command with sudo previledges)
+
+
+8.
