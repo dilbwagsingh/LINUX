@@ -61,18 +61,22 @@ username and pass everytime you make a push-
 					   now type - sudo !! (To run previous command with sudo previledges)
 
 
-8. Adding a user to the sudoers list-
+8. Adding a user to the sudoers list/some group-
 		
 		I have found 3 different commands which i guess basically do ths same task if not something more-
-			1. sudo adduser USERNAME-YOU-WANT-TO-ADD-TO-SUDOERS-LIST sudo
-			2. sudo gpasswd -a USERNAME-YOU-WANT-TO-ADD-TO-SUDOERS-LIST sudo
-			3. sudo usermod -a -G sudo USERNAME-YOU-WANT-TO-ADD-TO-SUDOERS-LIST
+			1. sudo adduser USERNAME-YOU-WANT-TO-ADD-TO-SUDOERS-LIST sudo(or GROUP-NAME)
+			2. sudo gpasswd -a USERNAME-YOU-WANT-TO-ADD-TO-SUDOERS-LIST sudo(or GROUP-NAME)
+			3. sudo usermod -a -G sudo(or GROUP-NAME) USERNAME-YOU-WANT-TO-ADD-TO-SUDOERS-LIST
 
 		A good reading - https://www.lifewire.com/add-user-to-sudoers-in-ubuntu-4129177
-		
 
-9. To access root user in UBUNTU (which is disabled by default)
+9. Removing a user from the sudoers list/some group-
+		
+		sudo gpasswd -d USERNAME-YOU-WANT-TO-ADD-TO-SUDOERS-LIST sudo(or GROUP-NAME)
+
+
+10. To access root user in UBUNTU (which is disabled by default)
 		
 		sudo su (Note : 'su -l' will not work in this case because you donot know the root password in UBUNTU)
 
-10.  
+11.  
