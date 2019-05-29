@@ -1,0 +1,21 @@
+1. To update pip3 and pip respectively - 
+	
+	sudo -H pip3 install --upgrade pip
+	sudo -H pip2 install --upgrade pip
+
+
+2. To save github credentials for a particular project so that you dont have to give the
+username and pass everytime you make a push-
+	
+		git config credential.helper store
+
+
+3. To keep your forked repo uptodate with the original repo on GitHub-
+	
+	Inside the Cloned repo in your local workstation-
+	1. git remote add upstream git://github.com/ORIGINAL-DEV-USERNAME/REPO-YOU-FORKED-FROM.git
+	2. git fetch upstream
+	3. git pull upstream master (If a text editor pops up just exit it)
+	4. git push
+
+4. 
