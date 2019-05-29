@@ -68,6 +68,9 @@ username and pass everytime you make a push-
 			2. sudo gpasswd -a USERNAME-YOU-WANT-TO-ADD-TO-SUDOERS-LIST sudo
 			3. sudo usermod -a -G sudo USERNAME-YOU-WANT-TO-ADD-TO-SUDOERS-LIST
 
+		A good reading - https://www.lifewire.com/add-user-to-sudoers-in-ubuntu-4129177
+		
+
 9. To access root user in UBUNTU (which is disabled by default)
 		
 		sudo su (Note : 'su -l' will not work in this case because you donot know the root password in UBUNTU)
