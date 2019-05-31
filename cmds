@@ -61,7 +61,7 @@ username and pass everytime you make a push-
 7. Run previous command on terminal with an added word-
 			
 			example : previous command - apt-get install python
-					   now type - sudo !! (To run previous command with sudo previledges)
+					   now type - sudo !! (To run previous command with sudo priviledges)
 
 
 8. Adding a user to the sudoers list/some group-
