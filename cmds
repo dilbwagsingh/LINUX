@@ -9,9 +9,12 @@ GITHUB SECTION -
 						    ------------START-------------
 
 2. To save github credentials for a particular project so that you dont have to give the
-username and pass everytime you make a push-
+   username and pass everytime you make a push-
 	
 		git config credential.helper store
+
+	Note- This stores the password in plaintext format and so is just protected by the 
+		  file system permissions.
 
 
 3. To keep your forked repo uptodate with the original repo on GitHub-
