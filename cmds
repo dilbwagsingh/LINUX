@@ -85,12 +85,14 @@ GITHUB SECTION -
 		
 		sudo su (Note : 'su -l' will not work in this case because you donot know the root password in UBUNTU)
 
+
 11.  Some useful terminal shortcuts(Defaults)
 		Ctrl+A 		- 		Move the cursor to the beginning of the command
 		Ctrl+E 		-		Move the cursor to the end of the command.
 		Ctrl+L 		-		Clear the terminal.
 		Tab Tab 	- 		Shows command completion possibilities
 		Ctrl+R 		- 		Seacrch command history.
+
 
 12.	 Symbolic links in linux-
 		
@@ -102,4 +104,12 @@ GITHUB SECTION -
 
 		If the symbolic link is not broken then it is default colored cyan else red in the terminal.
 
-13.
+
+13.	Check the type of command- 
+		
+		type COMMAND-NAME
+		Example : type cd
+
+		Note - This is useful as you will notice that shell built-in command like cd dont work with "sudo".
+
+14.
