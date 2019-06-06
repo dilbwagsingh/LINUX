@@ -57,6 +57,14 @@ GITHUB SECTION -
 		
 		git-ignore FILE/FOLDER-NAME-YOU-WANT-TO-IGNORE
 
+7. If you wanna check if a pull from the remote is required or not-
+		
+		1. git remote update
+		2. git status -uno
+		(This will tell you the branch you are tracking is ahead ,behind or has diverged. 
+			If nothing is shown then thhe remote nad local are even)
+
+
 
 							------------------END------------------
 
@@ -112,4 +120,16 @@ GITHUB SECTION -
 
 		Note - This is useful as you will notice that shell built-in command like cd dont work with "sudo".
 
-14.
+14. To change the attributes of a file(This may come handy)
+		
+		chattr [OPTIONS] FILENAME
+
+	NOTE : The +i bit(Immutable property) can only be set by the root user or by using the sudo keyword.
+	If the +i bit is set then even the root user cannot make changes or delete the file.
+
+
+15. To view the attributes set on a file use - 
+		
+		lsattr FILENAME
+
+16.
