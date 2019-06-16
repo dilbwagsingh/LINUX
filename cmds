@@ -62,7 +62,7 @@ GITHUB SECTION -
 		1. git remote update
 		2. git status -uno
 		(This will tell you the branch you are tracking is ahead ,behind or has diverged. 
-			If nothing is shown then thhe remote nad local are even)
+			If nothing is shown then the remote and local are even)
 
 
 
