@@ -48,9 +48,13 @@ GITHUB SECTION -
 			10. git push (since we had setup the origin master before so we dont need to specify origin master)
 			 	(Now it will prompt for your username and password, type those in correctly and you are done!!)
 
-5. If you want to delete files or directories from the repo - 
+5. If you want to delete files or directories from the repo and locally- 
 		
 		git rm FILE/FOLDER-NAME-YOU-WANT-TO-DELETE
+
+   If you want to delete files or directories from the repo but keep them locally-
+
+   		git rm --cached FILE/FOLDER-NAME-YOU-WANT-TO-DELETE
 
 
 6. If you donot want to include a particular file or folder in your repo just add it to the .gitignore file
@@ -64,7 +68,9 @@ GITHUB SECTION -
 		(This will tell you the branch you are tracking is ahead ,behind or has diverged. 
 			If nothing is shown then the remote and local are even)
 
-
+8. There are many awesome git commit emojis you can use-
+	
+		Link - https://www.webfx.com/tools/emoji-cheat-sheet/
 
 							------------------END------------------
 
