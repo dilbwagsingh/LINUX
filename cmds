@@ -79,6 +79,7 @@ GITHUB SECTION -
 			
 			example : previous command - apt-get install python
 					   now type - sudo !! (To run previous command with sudo priviledges)
+					   Basically what this does is add the just previous typed command in the same place as the '!!' without a space.
 
 
 8. Adding a user to the sudoers list/some group-
