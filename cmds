@@ -100,7 +100,7 @@ GITHUB SECTION -
 		sudo su (Note : 'su -l' will not work in this case because you donot know the root password in UBUNTU)
 
 
-11.  Some useful terminal shortcuts(Defaults)
+11.  Some useful terminal shortcuts(BASH-Defaults)
 		Ctrl+A 		- 		Move the cursor to the beginning of the command
 		Ctrl+E 		-		Move the cursor to the end of the command.
 		Ctrl+L 		-		Clear the terminal.
@@ -138,4 +138,4 @@ GITHUB SECTION -
 		
 		lsattr FILENAME
 
-16.
+16. 
